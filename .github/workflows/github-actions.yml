@@ -20,13 +20,15 @@ jobs:
 
       - name: Generete package.json
         run: |
-          echo '{
+          cat <<EOF > package.json
+          {
             "name": "CI-demonstration",
             "version": "1.0.0",
             "scripts": {
-              "test": "echo \"Running test...\" && exit 0"
+              "test": "echo \\"Running test...\\" && exit 0"
             }
-          }' > packages.json
+          }
+          EOF
 
       - name: install dependencies
         run: npm install
