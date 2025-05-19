@@ -2,4 +2,4 @@
 
 UTS DevOps - Mengubah file README
 
-Melakukan CI Pipeline
+Melakukan CI Pipeline.
