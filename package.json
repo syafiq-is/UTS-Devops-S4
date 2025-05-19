@@ -4,7 +4,7 @@
   "description": "UTS DevOps - Mengubah file README",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "",
